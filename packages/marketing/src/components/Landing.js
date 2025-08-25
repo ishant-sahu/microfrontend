@@ -74,12 +74,12 @@ export default function Album() {
           <Container maxWidth="sm">
             <Typography
               component="h1"
-              variant="h2"
+              variant="h3"
               align="center"
               color="textPrimary"
               gutterBottom
             >
-              Home Page
+              Marketing Microfrontend Home Page
             </Typography>
             <Typography
               variant="h5"

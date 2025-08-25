@@ -148,12 +148,12 @@ export default function Pricing() {
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
         <Typography
           component="h1"
-          variant="h2"
+          variant="h3"
           align="center"
           color="textPrimary"
           gutterBottom
         >
-          Pricing
+          Marketing Microfrontend Pricing Page
         </Typography>
         <Typography
           variant="h5"
@@ -190,7 +190,7 @@ export default function Pricing() {
                 <CardContent>
                   <div className={classes.cardPricing}>
                     <Typography component="h2" variant="h3" color="textPrimary">
-                      ${tier.price}
+                      ₹{tier.price}
                     </Typography>
                     <Typography variant="h6" color="textSecondary">
                       /mo
